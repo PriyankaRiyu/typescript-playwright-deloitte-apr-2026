@@ -22,6 +22,7 @@ async function basicOperation() {
 
 
     //dec 2000 20
+    await page.locator("xpath=//select[@id='SELECTOR_1']").scrollIntoViewIfNeeded()
     await page.locator("xpath=//select[@id='SELECTOR_1']").selectOption({label:"December"})
 
 
