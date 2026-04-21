@@ -12,5 +12,5 @@ let emp2:Employee=new Employee(102,"Kim",5000,"Excellent")
 emp2.printEmployeeDetails()
 emp1.printEmployeeDetails()
 
-emp1.setName("peter")
+emp1.setName("Peter")
 emp1.printEmployeeDetails()
