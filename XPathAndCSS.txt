@@ -7,6 +7,14 @@ Relative xpath -
 //tagname[@attribute='']
 //tagname[text()='']
 
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
+Grouping - starts at 1
+(//span[text()='Month']/following::select)[1]
+
+
 And-Or
 
 Parent - child 
@@ -15,7 +23,7 @@ ancestor - descendant
 
 
 following - preceding 
-
+//span[text()='Month']/following::select
 
 following-sibling 
 
@@ -23,3 +31,5 @@ following-sibling
 Example: Verify in chrome - ctrl+f
 //span[text()='Create account']
 //input[@name='name']
+//input[contains(@id,'UserFirstName')]
+//span[contains(@id,'UserPhone')]
