@@ -14,3 +14,15 @@ emp1.printEmployeeDetails()
 
 emp1.setName("Peter")
 emp1.printEmployeeDetails()
+
+
+console.log(await emp1.getHelloFromEmployee())
+
+
+let emp4:Employee=new Employee(103,"Kim",5000,"Excellent")
+
+console.log(typeof emp4)
+
+
+let emp5:Employee=Employee.getEmployeeInstance()
+emp5.printEmployeeDetails()
