@@ -15,7 +15,8 @@ async function basicOperation() {
 
     await page.locator("xpath=//span[text()='Create account']").click()
 
-    //will resume at 2:10 PM IST
+    await page.locator("xpath=//input[@name='name']").fill("jack")
+  
 
     await page.waitForTimeout(5000)
     browser.close()
