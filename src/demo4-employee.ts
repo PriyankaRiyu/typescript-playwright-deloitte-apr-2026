@@ -45,9 +45,8 @@ export class Employee {
         })
     }
 
-
-    public static getEmployeeInstance():Employee{
-        let emp:Employee=new Employee(0,"",0,"");
+    public static getEmployeeInstance(): Employee {
+        let emp: Employee = new Employee(0, "", 0, "");
         return emp;
     }
 }
