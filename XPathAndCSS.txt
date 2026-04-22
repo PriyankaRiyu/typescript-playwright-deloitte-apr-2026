@@ -44,3 +44,17 @@ Example: Verify in chrome - ctrl+f
 //button[normalize-space()='Login']
 
 svg xpath - different 
+
+--------------------------------------
+CSS Selector 
+
+#id 
+.classname
+tagname[attribute='']
+[attribute='']
+
+Example
+#username
+input[aria-describedby='username-errors']
+
+button[aria-label='Next']
